@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wap-provisioningdoc>
+
+  <!-- DisableEthernetEnableWifi -->
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="DisableEthernetEnableWifi"/>
+    <characteristic version="6.3" type="EthernetMgr">
+      <parm name="EthernetState" value="2" />
+      <parm name="ConfigIpAddr" value="0" />
+      <parm name="SetEthernetProxySettings" value="0" />
+    </characteristic>
+    <characteristic version="5.2" type="Wi-Fi">
+      <characteristic type="System">
+        <parm name="WiFiAction" value="enable" />
+      </characteristic>
+      <parm name="UseRegulatory" value="0" />
+      <parm name="UseDiagnosticOptions" value="0" />
+      <parm name="UseAdvancedOptions" value="0" />
+      <parm name="UseHotspotOptions" value="0" />
+    </characteristic>
+  </characteristic>
+
+  <!-- EnableEthernetDisableWifi -->
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="EnableEthernetDisableWifi"/>
+    <characteristic version="6.3" type="EthernetMgr">
+      <parm name="EthernetState" value="1" />
+      <parm name="ConfigIpAddr" value="0" />
+      <parm name="SetEthernetProxySettings" value="0" />
+    </characteristic>
+    <characteristic version="5.2" type="Wi-Fi">
+      <characteristic type="System">
+        <parm name="WiFiAction" value="disable" />
+      </characteristic>
+      <parm name="UseRegulatory" value="0" />
+      <parm name="UseDiagnosticOptions" value="0" />
+      <parm name="UseAdvancedOptions" value="0" />
+      <parm name="UseHotspotOptions" value="0" />
+    </characteristic>
+  </characteristic>
+
+</wap-provisioningdoc>

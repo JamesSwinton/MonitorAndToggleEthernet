@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.zebra.jamesswinton.monitorandtogglenetwork",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 2,
+      "versionName": "2",
+      "enabled": true,
+      "outputFile": "Monitor \u0026 Toggle Network (v0.2).apk"
+    }
+  ]
+}
